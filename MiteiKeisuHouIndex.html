@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="initial-scale=1.0, user-scalable=yes">
+<title>未定係数法テスト</title>
+<link rel="stylesheet" href="style2.css">
+</head>
+<body>
+<script src="jquery-3.3.1.min.js"></script>
+
+
+<div id="InitScriptTag"></div>
+<script type="text/javascript" src="https://github.com/NanjoMiyako/MiteiKeisu/blob/master/MiteiKeisuHouJS.js">
+</script>
+
+反応前<br>
+<span style="margin-left:10px">反応物1:</span>
+<span style="margin-left:10px"><input type="text" name="TextBox" id="ReactantTextBox1"></span><br>
+<span style="margin-left:10px">反応物2:</span>
+<span style="margin-left:10px"><input type="text" name="TextBox" id="ReactantTextBox2"></span><br>
+<span style="margin-left:10px">反応物3:</span>
+<span style="margin-left:10px"><input type="text" name="TextBox" id="ReactantTextBox3"></span><br>
+<span style="margin-left:10px">反応物4:</span>
+<span style="margin-left:10px"><input type="text" name="TextBox" id="ReactantTextBox4"></span><br>
+<span style="margin-left:10px">反応物5:</span>
+<span style="margin-left:10px"><input type="text" name="TextBox" id="ReactantTextBox5"></span><br>
+
+
+<hr>
+反応後<br>
+<span style="margin-left:10px">生成物1:</span>
+<span style="margin-left:10px"><input type="text" name="TextBox" id="ProductTextBox1"></span><br>
+<span style="margin-left:10px">生成物2:</span>
+<span style="margin-left:10px"><input type="text" name="TextBox" id="ProductTextBox2"></span><br>
+<span style="margin-left:10px">生成物3:</span>
+<span style="margin-left:10px"><input type="text" name="TextBox" id="ProductTextBox3"></span><br>
+<span style="margin-left:10px">生成物4:</span>
+<span style="margin-left:10px"><input type="text" name="TextBox" id="ProductTextBox4"></span><br>
+<span style="margin-left:10px">生成物5:</span>
+<span style="margin-left:10px"><input type="text" name="TextBox" id="ProductTextBox5"></span><br>
+<hr>
+<button id="ExecuteMiteiKeisuHouBtn" onclick="ExecuteMiteiKeisuHou()">係数を計算</button><br>
+<hr>
+計算結果<br>
+<span style="margin-left:10px" id="SuccessKeisu"></span><br>
+<hr>
+<!--
+デバッグ用<br>
+<span id="ForDebug1"></span>
+!-->
+
+</body>
+</html>
